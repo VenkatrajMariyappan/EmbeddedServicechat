@@ -35,17 +35,17 @@
 
 		embedded_svc.init(
 			'https://avasoft-13c-dev-ed.my.salesforce.com',
-			'https://avasoft-13c-dev-ed.my.site.com',
+			'https://avasoft-13c-dev-ed.my.site.com/samplePartnerPortal',
 			gslbBaseURL,
 			'00D5g00000HOSTE',
-			'Chat',
+			'Chatbot',
 			{
 				baseLiveAgentContentURL: 'https://c.la2-c1-hnd.salesforceliveagent.com/content',
 				deploymentId: '5725g0000004zRo',
 				buttonId: '5735g00000053Po',
 				baseLiveAgentURL: 'https://d.la2-c1-hnd.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Chat',
-				isOfflineSupportEnabled: true
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I5g000000srxmEAA_18829a298a5',
+				isOfflineSupportEnabled: false
 			}
 		);
 	};
